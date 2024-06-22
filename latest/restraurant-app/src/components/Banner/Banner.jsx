@@ -47,13 +47,13 @@ const Banner = () => {
                     <img src={tomato} alt="" className='max-w-[280px]' />
                 </div>
                 <div className='absolute top-10 -right-16 sm:right-20 opacity-50 sm:opacity-100'>
-                <img src={lemon} alt="" className='max-w-[200px]' />
+                    <img src={lemon} alt="" className='max-w-[200px]' />
                 </div>
                 <div className='hidden sm:block absolute bottom-0 right-0'>
-                <img src={Apple} alt="" className='max-w-[200px]' />
+                    <img src={Apple} alt="" className='max-w-[200px]' />
                 </div>
                 <div className='absolute top-1/2 -translate-y-1/2 left-1/3 -translate-x-1/2 opacity-50 sm:opacity-100'>
-                <img src={kiwi} alt="" className='max-w-[180px]' />
+                    <img src={kiwi} alt="" className='max-w-[180px]' />
                 </div>
             </div>
         </>

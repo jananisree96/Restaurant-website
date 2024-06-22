@@ -2,7 +2,8 @@ import React from 'react'
 import './index.css';
 import Navbar from './components/Navbar';
 import Banner from './components/Banner/Banner';
-import Hero from './components/Hero/Hero'
+import Hero from './components/Hero/Hero';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Banner />
+      <Footer />
     </div>
   )
 }
