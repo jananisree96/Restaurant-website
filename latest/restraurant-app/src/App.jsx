@@ -1,10 +1,11 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import './index.css';
+import Hero from './components/Hero/Hero'
 
 const App = () => {
   return (
     <div className='overflow-x-hidden'>
-      <Navbar />
+      <Hero />
     </div>
   )
 }
