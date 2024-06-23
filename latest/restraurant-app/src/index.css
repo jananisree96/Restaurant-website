@@ -1,9 +1,8 @@
-<<<<<<< HEAD
-@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
-=======
-@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 
->>>>>>> bd044a4c86afbefed41eb5992de2fc5b70704cb7
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+
+
+
 
 @tailwind base;
 @tailwind components;
