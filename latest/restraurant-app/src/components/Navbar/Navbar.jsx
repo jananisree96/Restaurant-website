@@ -19,7 +19,7 @@ const NavLinks = [
   }
 ];
 
-const Navbar = () => {
+const Navbar = ({ TogglePopup }) => {
   return (
     <>
       <div className='bg-white shadow-md'>
@@ -37,7 +37,7 @@ const Navbar = () => {
               <li className='cursor-pointer group'>
                 <a href="/#" className='inline-block hover:text-primary text-xl font-semibold'>
                   <div className='flex items-center gap-[2px] py-2'>
-                    Dropdown
+                    Categories
                     <FaCaretDown className='group-hover:rotate-180 duration-300 ml-1' />
                   </div>
                 </a>
@@ -46,17 +46,17 @@ const Navbar = () => {
                   <ul>
                     <li>
                       <a href="/#" className='text-xl inline-block w-full rounded-md p-2 hover:bg-primary/20'>
-                        Link 1
+                        Vegetables
                       </a>
                     </li>
                     <li>
                       <a href="/#" className='text-xl inline-block w-full rounded-md p-2 hover:bg-primary/20'>
-                        Link 2
+                        Frutis
                       </a>
                     </li>
                     <li>
                       <a href="/#" className='text-xl inline-block w-full rounded-md p-2 hover:bg-primary/20'>
-                        Link 3
+                        Grains
                       </a>
                     </li>
                     
@@ -64,7 +64,7 @@ const Navbar = () => {
                 </div>
               </li>
               <li>
-                <button className='flex justify-center items-center gap-2 bg-secondary text-xl h-[40px] text-white px-5 py-2 hover:scale-105 duration-300'>
+                <button onClick={TogglePopup} className='flex justify-center items-center gap-2 bg-secondary text-xl h-[40px] text-white px-5 py-2 hover:scale-105 duration-300'>
                   <FaUser />
                    My Account
                 </button>
