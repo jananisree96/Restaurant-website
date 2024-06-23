@@ -7,10 +7,12 @@ import Footer from './components/Footer/Footer';
 import { Popup } from './components/Popup/Popup';
 import AOS from 'aos';
 import "aos/dist/aos.css";
+import { WhyChoose } from './components/WhyChoose/WhyChoose';
+import {About} from './components/About/About';
 
 const App = () => {
   const [showPopup, setShowPopup] = useState(false);
-  const HandlePopup = () => {
+  const TogglePopup = () => {
     setShowPopup(true);
   };
 
@@ -26,9 +28,11 @@ const App = () => {
   return (
     <div className='overflow-x-hidden'>
 
-      <Navbar HandlePopup ={HandlePopup}/>
+      <Navbar TogglePopup ={TogglePopup}/>
       <Hero />
       <Banner />
+      <WhyChoose/>
+      <About/>
       <Footer />
       <Popup showPopup ={showPopup } setShowPopup = { setShowPopup} />
     </div>  

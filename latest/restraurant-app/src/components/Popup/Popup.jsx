@@ -3,17 +3,17 @@ import { IoCloseCircleOutline } from 'react-icons/io5';
 import { FcGoogle } from 'react-icons/fc';
 import { FaFacebook } from 'react-icons/fa';
 
-export const Popup = ({ show, setShow }) => {
+export const Popup = ({ showPopup, setShowPopup}) => {
   return (
     <div>
-      {show && (
+      {showPopup && (
         <div className="h-screen w-screen fixed top-0 left-0 bg-black/50 z-50 backdrop-blur-sm">
           <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 shadow-sm bg-white rounded-md duration-200 w-[300px]">
             <div className="flex items-center justify-between mb-4">
               <h1 className="text-2xl font-bold text-dark">Login</h1>
               <IoCloseCircleOutline
                 className="text-2xl cursor-pointer"
-                onClick={() => setShow(false)}
+                onClick={() => setShowPopup(false)}
               />
             </div>
             <form className="space-y-4">
