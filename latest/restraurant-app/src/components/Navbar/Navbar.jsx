@@ -22,7 +22,7 @@ const NavLinks = [
 const Navbar = ({ TogglePopup }) => {
   return (
     <>
-      <div className='bg-white shadow-md'>
+      <div data-aos="fade" className='bg-white shadow-md'>
         <div className="container flex justify-between py-4 sm:py-3">
           {/* ----------Navbar-------- */}
           <div className='font-bold text-3xl'>Logo</div>
