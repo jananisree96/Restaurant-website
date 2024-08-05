@@ -15,4 +15,4 @@
 #### Footer: The footer section with relevant links and information.
 #### Popup: A modal component controlled by the showPopup state.
 ## CSS and Animations:
-#### AOS (Animate On Scroll): Integrated to add smooth scrolling animations to various elements, configured with custom settings for offset, duration, easing, and delay.
+#### AOS (Animate On Scroll): Integrated to add smooth scrolling animations to various elements, configured with custom settings for offset, duration, easing, and delay..
