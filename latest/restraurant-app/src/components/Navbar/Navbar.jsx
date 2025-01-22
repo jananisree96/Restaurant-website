@@ -25,7 +25,7 @@ const Navbar = ({ TogglePopup }) => {
       <div data-aos="fade" className='bg-white shadow-md'>
         <div className="container flex justify-between py-4 sm:py-3">
           {/* ----------Navbar-------- */}
-          <div className='font-bold text-3xl'>Logo</div>
+          <div className='font-bold text-3xl'>GoodFood</div>
           <div>
             <ul className='sm:flex items-center gap-10'>
               {NavLinks.map(({ id, name, link }) => (
